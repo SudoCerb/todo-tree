@@ -729,6 +729,14 @@
                                 },
                                 "hideFromActivityBar": {
                                     "type": "boolean"
+                                },
+                                "forThemeType": {
+                                    "type": "string",
+                                    "enum": [
+                                        "light",
+                                        "dark",
+                                        "highcontrast"
+                                    ]
                                 }
                             }
                         }
